@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { LandingPage } from './pages/landing/landing.page';
 
 function App() {
   return (
     <div className="App">
-      <h1>Spicy Mike's Pepper Co.</h1>
+      <LandingPage />
     </div>
   );
 }
